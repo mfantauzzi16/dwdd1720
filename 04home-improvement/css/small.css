@@ -4,3 +4,79 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*  apply a natural box layout model to all elements  */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+:root {
+    font-family: "Josefin Sans", sans-serif;
+    --primaryColor: #033913;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding: 1rem 2%;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--primaryColor);
+}
+
+.data {
+    margin: 1rem 4%;
+    padding: 1rem 4%;
+    background-color: #fefefe;
+    border-radius: 20px;
+    box-shadow: 0 0 6px #ccc;
+}
+
+.data label {
+    display: block;
+    margin: .5rem 0;
+}
+.data input {
+    width: 60px;
+}
+
+.data button {
+    width: 100%;
+    padding: .5rem 0;
+    margin: 1rem 0;
+    background: rgb(96,88,235);
+    background: linear-gradient(rgb(255, 239, 68) 0%, rgb(137, 117, 0) );
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px #777;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section div {
+    margin: 1rem 4%;
+    flex-basis: 96%;
+    background-color: #fafafa;
+    border-radius: 0 0 10px 10px;
+}
+
+section h2 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    padding: .5rem 0;
+    background-color: #666;
+    color: white;
+}
+
+section ul {
+    list-style-type: circle;
+}
+
+footer {
+    background-color: var(--primaryColor);
+    padding: 1rem 2%;
+    color: white;
+    text-align: center;
+}
