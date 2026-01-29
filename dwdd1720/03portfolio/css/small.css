@@ -1,0 +1,156 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    --lightWeight: 300;
+    --heavyWeight: 700;
+    --primaryColor: rgb(141, 179, 141);
+    --secondaryColor:rgb(112, 144, 112);
+    --tertiaryColor:rgb(89, 113, 89);
+    --quaternaryColor:rgb(174, 221, 174);
+    --bigText: rgb(33, 49, 33);
+}
+
+nav {
+    position: sticky;
+    top: 20px;
+    background-color:var(--quaternaryColor);
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+nav a {
+    padding: .8rem .5rem;
+    display: block;
+    text-decoration: none;
+    color:var(--bigText);
+    font-weight: var(--heavyWeight);
+}
+
+nav a:hover {
+    background-color:rgb(89, 113, 89);
+    color:white;
+}
+
+section#about {
+    background-color:var(--primaryColor);
+    height: 100vh;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--bigText);
+}
+
+section#about h1 {
+    font-size: 2.5rem;
+}
+
+section#about h2 {
+    font-size: 1.5rem;
+}
+
+section#projects {
+    background-color:var(--secondaryColor);
+    min-height: 100vh;
+    padding: 50px;
+}
+
+section#projects h2 {
+    color: var(--bigText);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+div.theParent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.theParent a {
+    flex-basis: 100%;
+    padding: 1rem 2vw;
+    text-decoration: none;
+}
+
+section#projects figure {
+    margin: 0;
+    width: 100%;
+}
+
+section#projects img {
+    width: 100%;
+}
+
+section#projects figcaption {
+    text-align: center;
+    color: var(--bigText);
+}
+
+section#contact {
+    background-color:var(--tertiaryColor);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section#contact h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+section#contact ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+section#contact li {
+    list-style-type: none;
+}
+
+section#contact a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+section#contact a img {
+    height: 50px;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+    transform: translateY(4px);
+
+}
+
+footer{
+    height: 20vh;
+}
+
+footer p, footer span{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--bigText);
+    padding: 1rem 0;
+}
