@@ -1,0 +1,58 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/* switches */
+.hideMe {
+    display: none;
+}
+
+.showMe {
+    display: block;
+}
+
+/* New Profile styling */
+#newProfile {
+
+}
+
+#newProfile label {
+    display: block;
+}
+
+#newProfile input, #newProfile select {
+
+}
+
+#newProfile input[type="submit"]{
+    background-color: red;
+}
+
+
+/* Current Profile styling */
+#myProfile {
+
+}
+
+#myProfile section {
+    background-color:pink;
+    border : 1px solid green;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#myProfile img {
+    
+}
+
+#myProfile p {
+
+}
+
+#myProfile button {
+
+}
