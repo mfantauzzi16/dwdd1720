@@ -28,8 +28,10 @@ header {
 
 /* New Profile styling */
 #newProfile {
-    margin: 1rem 4%;
-    padding: 1rem 4%;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
     background-color: #fefefe;
     border-radius: 20px;
     box-shadow: 0 0 6px #ccc;
@@ -68,8 +70,10 @@ header {
 
 /* Current Profile styling */
 #myProfile {
-    margin: 1rem 4%;
-    padding: 1rem 4%;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
     background-color: #fefefe;
     border-radius: 20px;
     box-shadow: 0 0 6px #ccc;
@@ -84,7 +88,9 @@ header {
 }
 
 #myProfile img {
-    
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 #myProfile p {
