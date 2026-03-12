@@ -18,7 +18,7 @@ deleteBtn.addEventListener('click', () => {
     localStorage.removeItem('wellness-last');
     localStorage.removeItem('wellness-emoji');
     localStorage.removeItem('wellness-text');
-    location.reload()
+    location.reload();  
 })
 
 const check = localStorage.getItem('wellness-first')
@@ -31,11 +31,8 @@ if (check === null) {
     document.querySelector('#newProfile').className = 'hideMe'
     document.querySelector('#myProfile').className = 'showMe'
 
-document.querySelector('#first').textContent = localStorage.getItem('wellness-first');
-
-document.querySelector('#last').textContent = localStorage.getItem('wellness-last');
-
-document.querySelector('#emotion').textContent = localStorage.getItem('wellness-text');
-
-document.querySelector('#emoji').src = localStorage.getItem('wellness-emoji');
+    document.querySelector('#first').textContent = localStorage.getItem('wellness-first');
+    document.querySelector('#last').textContent = localStorage.getItem('wellness-last');
+    document.querySelector('#emotion').textContent = localStorage.getItem('wellness-text');
+    document.querySelector('#emoji').src = localStorage.getItem('wellness-emoji');
 }
