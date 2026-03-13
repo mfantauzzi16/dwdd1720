@@ -1,7 +1,7 @@
 import {presidents} from '../data/presidents.js';
 console.log(presidents);
 
-const pathStart = "//www.loc.gov/static/portals/free-to-use/public-domain/presidential-portraits/"
+const pathStart = "//resources.dgmuvu.com/presidents/"
 const myTarget = document.querySelector('#cards');
 
 for (let x = 0; x < presidents.length; x++) {

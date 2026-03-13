@@ -6,7 +6,7 @@ export const presidents = [
     took_office: "1789-04-30",
     left_office: "1797-03-04",
     party: "No Party",
-    photo: "01-washington.jpg",
+    photo: "01-washington.webp",
   },
   {
     name: "John Adams",
@@ -15,7 +15,7 @@ export const presidents = [
     took_office: "1797-03-04",
     left_office: "1801-03-04",
     party: "No Party",
-    photo: "02-adams.jpg",
+    photo: "02-adams.webp",
   },
   {
     name: "Thomas Jefferson",
@@ -24,7 +24,7 @@ export const presidents = [
     took_office: "1801-03-04",
     left_office: "1809-03-04",
     party: "Democrat-Republican",
-    photo: "03-jefferson.jpg",
+    photo: "03-jefferson.webp",
   },
   {
     name: "James Madison",
@@ -33,7 +33,7 @@ export const presidents = [
     took_office: "1809-03-04",
     left_office: "1817-03-04",
     party: "Democrat-Republican",
-    photo: "04-madison.jpg",
+    photo: "04-madison.webp",
   },
   {
     name: "James Monroe",
@@ -42,7 +42,7 @@ export const presidents = [
     took_office: "1817-03-04",
     left_office: "1825-03-04",
     party: "Democrat-Republican",
-    photo: "05-monroe.jpg",
+    photo: "05-monroe.webp",
   },
   {
     name: "John Quincy Adams",
@@ -51,7 +51,7 @@ export const presidents = [
     took_office: "1825-03-04",
     left_office: "1829-03-04",
     party: "Democrat-Republican",
-    photo: "06-adams.jpg",
+    photo: "06-adams.webp",
   },
   {
     name: "Andrew Jackson",
@@ -60,7 +60,7 @@ export const presidents = [
     took_office: "1829-03-04",
     left_office: "1837-03-04",
     party: "Democrat",
-    photo: "07-jackson.jpg",
+    photo: "07-jackson.webp",
   },
   {
     name: "Martin Van Buren",
@@ -69,7 +69,7 @@ export const presidents = [
     took_office: "1837-03-04",
     left_office: "1841-03-04",
     party: "Democrat",
-    photo: "08-van-buren.jpg",
+    photo: "08-van-buren.webp",
   },
   {
     name: "William Henry Harrison",
@@ -78,7 +78,7 @@ export const presidents = [
     took_office: "1841-03-04",
     left_office: "1841-04-04",
     party: "Whig",
-    photo: "09-harrison.jpg",
+    photo: "09-harrison.webp",
   },
   {
     name: "John Tyler",
@@ -87,7 +87,7 @@ export const presidents = [
     took_office: "1841-04-04",
     left_office: "1845-03-04",
     party: "Whig",
-    photo: "10-tyler.jpg",
+    photo: "10-tyler.webp",
   },
   {
     name: "James K. Polk",
@@ -96,7 +96,7 @@ export const presidents = [
     took_office: "1845-03-04",
     left_office: "1849-03-04",
     party: "Democrat",
-    photo: "11-polk.jpg",
+    photo: "11-polk.webp",
   },
   {
     name: "Zachary Taylor",
@@ -105,7 +105,7 @@ export const presidents = [
     took_office: "1849-03-04",
     left_office: "1850-07-09",
     party: "Whig",
-    photo: "12-taylor.jpg",
+    photo: "12-taylor.webp",
   },
   {
     name: "Millard Fillmore",
@@ -114,7 +114,7 @@ export const presidents = [
     took_office: "1850-07-09",
     left_office: "1853-03-04",
     party: "Whig",
-    photo: "13-fillmore.jpg",
+    photo: "13-fillmore.webp",
   },
   {
     name: "Franklin Pierce",
@@ -123,7 +123,7 @@ export const presidents = [
     took_office: "1853-03-04",
     left_office: "1857-03-04",
     party: "Democrat",
-    photo: "14-pierce.jpg",
+    photo: "14-pierce.webp",
   },
   {
     name: "James Buchanan",
@@ -132,7 +132,7 @@ export const presidents = [
     took_office: "1857-03-04",
     left_office: "1861-03-04",
     party: "Democrat",
-    photo: "15-buchanan.jpg",
+    photo: "15-buchanan.webp",
   },
   {
     name: "Abraham Lincoln",
@@ -141,7 +141,7 @@ export const presidents = [
     took_office: "1861-03-04",
     left_office: "1865-04-15",
     party: "Republican",
-    photo: "16-lincoln.jpg",
+    photo: "16-lincoln.webp",
   },
   {
     name: "Andrew Johnson",
@@ -150,7 +150,7 @@ export const presidents = [
     took_office: "1865-04-15",
     left_office: "1869-03-04",
     party: "Democrat",
-    photo: "17-johnson.jpg",
+    photo: "17-johnson.webp",
   },
   {
     name: "Ulysses S. Grant",
@@ -159,7 +159,7 @@ export const presidents = [
     took_office: "1869-03-04",
     left_office: "1877-03-04",
     party: "Republican",
-    photo: "18-grant.jpg",
+    photo: "18-grant.webp",
   },
   {
     name: "Rutherford B. Hayes",
@@ -168,7 +168,7 @@ export const presidents = [
     took_office: "1877-03-04",
     left_office: "1881-03-04",
     party: "Republican",
-    photo: "19-hayes.jpg",
+    photo: "19-hayes.webp",
   },
   {
     name: "James A. Garfield",
@@ -177,7 +177,7 @@ export const presidents = [
     took_office: "1881-03-04",
     left_office: "1881-09-19",
     party: "Republican",
-    photo: "20-garfield.jpg",
+    photo: "20-garfield.webp",
   },
   {
     name: "Chester A. Arthur",
@@ -186,7 +186,7 @@ export const presidents = [
     took_office: "1881-09-19",
     left_office: "1885-03-04",
     party: "Republican",
-    photo: "21-arthur.jpg",
+    photo: "21-arthur.webp",
   },
   {
     name: "Grover Cleveland",
@@ -195,7 +195,7 @@ export const presidents = [
     took_office: "1885-03-04",
     left_office: "1889-03-04",
     party: "Democrat",
-    photo: "22-24-cleveland.jpg",
+    photo: "22-cleveland.webp",
   },
   {
     name: "Benjamin Harrison",
@@ -204,7 +204,7 @@ export const presidents = [
     took_office: "1889-03-04",
     left_office: "1893-03-04",
     party: "Republican",
-    photo: "23-harrison.jpg",
+    photo: "23-harrison.webp",
   },
   {
     name: "Grover Cleveland",
@@ -213,7 +213,7 @@ export const presidents = [
     took_office: "1893-03-04",
     left_office: "1897-03-04",
     party: "Democrat",
-    photo: "22-24-cleveland.jpg",
+    photo: "22-cleveland.webp",
   },
   {
     name: "William McKinley",
@@ -222,7 +222,7 @@ export const presidents = [
     took_office: "1897-03-04",
     left_office: "1901-09-14",
     party: "Republican",
-    photo: "25-mckinley.jpg",
+    photo: "25-mckinley.webp",
   },
   {
     name: "Theodore Roosevelt",
@@ -231,7 +231,7 @@ export const presidents = [
     took_office: "1901-09-14",
     left_office: "1909-03-04",
     party: "Republican",
-    photo: "26-roosevelt.jpg",
+    photo: "26-roosevelt.webp",
   },
   {
     name: "William Howard Taft",
@@ -240,7 +240,7 @@ export const presidents = [
     took_office: "1909-03-04",
     left_office: "1913-03-04",
     party: "Republican",
-    photo: "27-taft.jpg",
+    photo: "27-taft.webp",
   },
   {
     name: "Woodrow Wilson",
@@ -249,7 +249,7 @@ export const presidents = [
     took_office: "1913-03-04",
     left_office: "1921-03-04",
     party: "Democrat",
-    photo: "28-wilson.jpg",
+    photo: "28-wilson.webp",
   },
   {
     name: "Warren G. Harding",
@@ -258,7 +258,7 @@ export const presidents = [
     took_office: "1921-03-04",
     left_office: "1923-08-02",
     party: "Republican",
-    photo: "29-harding.jpg",
+    photo: "29-harding.webp",
   },
   {
     name: "Calvin Coolidge",
@@ -267,7 +267,7 @@ export const presidents = [
     took_office: "1923-08-02",
     left_office: "1929-03-04",
     party: "Republican",
-    photo: "30-coolidge.jpg",
+    photo: "30-coolidge.webp",
   },
   {
     name: "Herbert Hoover",
@@ -276,7 +276,7 @@ export const presidents = [
     took_office: "1929-03-04",
     left_office: "1933-03-04",
     party: "Republican",
-    photo: "31-hoover.jpg",
+    photo: "31-hoover.webp",
   },
   {
     name: "Franklin D. Roosevelt",
@@ -285,7 +285,7 @@ export const presidents = [
     took_office: "1933-03-04",
     left_office: "1945-04-12",
     party: "Democrat",
-    photo: "32-roosevelt.jpg",
+    photo: "32-roosevelt.webp",
   },
   {
     name: "Harry S. Truman",
@@ -294,7 +294,7 @@ export const presidents = [
     took_office: "1945-04-12",
     left_office: "1953-01-20",
     party: "Democrat",
-    photo: "33-truman.jpg",
+    photo: "33-truman.webp",
   },
   {
     name: "Dwight D. Eisenhower",
@@ -303,7 +303,7 @@ export const presidents = [
     took_office: "1953-01-20",
     left_office: "1961-01-20",
     party: "Republican",
-    photo: "34-eisenhower.jpg",
+    photo: "34-eisenhower.webp",
   },
   {
     name: "John F. Kennedy",
@@ -312,7 +312,7 @@ export const presidents = [
     took_office: "1961-01-20",
     left_office: "1963-11-22",
     party: "Democrat",
-    photo: "35-kennedy.jpg",
+    photo: "35-kennedy.webp",
   },
   {
     name: "Lyndon B. Johnson",
@@ -321,7 +321,7 @@ export const presidents = [
     took_office: "1963-11-22",
     left_office: "1969-01-20",
     party: "Democrat",
-    photo: "36-johnson.jpg",
+    photo: "36-johnson.webp",
   },
   {
     name: "Richard Nixon",
@@ -330,7 +330,7 @@ export const presidents = [
     took_office: "1969-01-20",
     left_office: "1974-08-09",
     party: "Republican",
-    photo: "37-nixon.jpg",
+    photo: "37-nixon.webp",
   },
   {
     name: "Gerald Ford",
@@ -339,7 +339,7 @@ export const presidents = [
     took_office: "1974-08-09",
     left_office: "1977-01-20",
     party: "Republican",
-    photo: "38-ford.jpg",
+    photo: "38-ford.webp",
   },
   {
     name: "Jimmy Carter",
@@ -348,7 +348,7 @@ export const presidents = [
     took_office: "1977-01-20",
     left_office: "1981-01-20",
     party: "Democrat",
-    photo: "39-carter.jpg",
+    photo: "39-carter.webp",
   },
   {
     name: "Ronald Reagan",
@@ -357,7 +357,7 @@ export const presidents = [
     took_office: "1981-01-20",
     left_office: "1989-01-20",
     party: "Republican",
-    photo: "40-reagan.jpg",
+    photo: "40-reagan.webp",
   },
   {
     name: "George H. W. Bush",
@@ -366,7 +366,7 @@ export const presidents = [
     took_office: "1989-01-20",
     left_office: "1993-01-20",
     party: "Republican",
-    photo: "41-bush.jpg",
+    photo: "41-bush.webp",
   },
   {
     name: "Bill Clinton",
@@ -375,7 +375,7 @@ export const presidents = [
     took_office: "1993-01-20",
     left_office: "2001-01-20",
     party: "Democrat",
-    photo: "42-clinton.jpg",
+    photo: "42-clinton.webp",
   },
   {
     name: "George W. Bush",
@@ -384,7 +384,7 @@ export const presidents = [
     took_office: "2001-01-20",
     left_office: "2009-01-20",
     party: "Republican",
-    photo: "43-bush.jpg",
+    photo: "43-bush.webp",
   },
   {
     name: "Barack Obama",
@@ -393,7 +393,7 @@ export const presidents = [
     took_office: "2009-01-20",
     left_office: "2017-01-20",
     party: "Democrat",
-    photo: "44-obama.jpg",
+    photo: "44-obama.webp",
   },
   {
     name: "Donald J. Trump",
@@ -402,7 +402,7 @@ export const presidents = [
     took_office: "2017-01-20",
     left_office: "2021-01-20",
     party: "Republican",
-    photo: "45-donald-trump.png",
+    photo: "45-donald-trump.webp",
   },
   {
     name: "Joe Biden",
@@ -411,7 +411,7 @@ export const presidents = [
     took_office: "2021-01-20",
     left_office: "2025-01-20",
     party: "Democrat",
-    photo: "46-joe-biden.png",
+    photo: "46-joe-biden.webp",
   },
   {
     name: "Donald J. Trump",
@@ -420,6 +420,6 @@ export const presidents = [
     took_office: "2025-01-20",
     left_office: "2029-01-20",
     party: "Republican",
-    photo: "47-donald-trump.png",
+    photo: "47-donald-trump.webp",
   }
 ];
