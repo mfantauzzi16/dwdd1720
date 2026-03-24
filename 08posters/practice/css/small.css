@@ -1,0 +1,51 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body.paintRed div {
+    background-color: red;
+}
+body.paintRed div h1 {
+    color: pink;
+}
+
+body.paintGreen div {
+    background-color: green;
+}
+body.paintGreen div h1 {
+    color: lime;
+}
+
+/* button switches */
+body.paintRed section #redImg {
+    display: none;
+}
+body.paintRed section #greenImg {
+    display: block;
+}
+
+body.paintGreen section #redImg {
+    display: block;
+}
+body.paintGreen section #greenImg {
+    display: none;
+}
+
+body.paintGreen .parent {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+body.paintGreen .parent section {
+    color: pink;
+}
+
+
+body.paintRed .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+body.paintRed .parent section {
+    color: blue;
+}

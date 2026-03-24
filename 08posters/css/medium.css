@@ -1,0 +1,10 @@
+@media only screen and (min-width: 35rem) {
+body.grid #cards figure {
+    flex-basis: 46%;
+}
+
+body.list #cards figure {
+    max-width: 60rem;
+}
+    
+} /* end media query*/

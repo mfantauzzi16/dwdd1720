@@ -1,0 +1,14 @@
+@media only screen and (min-width: 60rem) {
+body.grid #cards figure {
+    flex-basis: 29%;
+}
+
+body.grid main {
+    max-width: 75rem;
+    margin: auto;
+}
+
+body.list #cards figure {
+    max-width: 100rem;
+}
+} /* end media query*/

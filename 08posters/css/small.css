@@ -1,0 +1,149 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-family: "Google Sans", sans-serif;
+}
+
+/* grid css */
+body.grid header {
+    display: flex;
+    justify-content:space-between;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+body.grid header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+body.grid main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body.grid #cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body.grid #cards figure{
+    margin: 2% 2%;
+    padding: 1rem;
+    flex-basis: 96%;
+    border: solid black 2px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px #9b9b9b;
+    background-color: rgb(237, 237, 237);
+}
+
+body.grid .titleBar {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    background-color: #FFE81F;
+    color: black;
+    padding: 0.25rem;
+    margin: 0;
+}
+
+body.grid #cards img {
+    width: 100%;
+}
+
+body.grid #cards figcaption {
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 200%;
+}
+
+/* list css */
+body.list header {
+    display: flex;
+    justify-content:space-between;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+body.list header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+body.list main {
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+body.list #cards {
+    display: block;
+    padding: 0 15px;
+}
+
+body.list #cards figure{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 0;
+    max-width: 100%;
+    border: solid black 2px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px #9b9b9b;
+    background-color: rgb(237, 237, 237);
+    overflow: hidden;
+}
+
+body.list #cards .content {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 15px;
+    margin: 0;
+    border-radius: 12px;
+}
+
+body.list .titleBar {
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: #FFE81F;
+    color: black;
+    padding: 5px 10px;
+}
+
+body.list #cards img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+body.list #cards figcaption {
+    text-align: left;
+    font-size: 0.75rem;
+    line-height: 1.6;
+}
+
+/* switches */
+body.grid header #grid {display: none;}
+body.grid header #list {display: block;}
+
+body.list header #grid {display: block;}
+body.list header #list {display: none;}
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
