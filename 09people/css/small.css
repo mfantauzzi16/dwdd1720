@@ -1,0 +1,77 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+header {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+button {
+    background-color: #FFE81F;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+body {
+    font-family: "Google Sans", sans-serif;
+}
+
+#peopleHere {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#peopleHere figure {
+    margin: 1rem 2%;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#peopleHere figure.female {
+    border: solid 2px blue;
+    color: blue;
+}
+
+#peopleHere figure.male {
+    border: solid 2px red;
+    color: red;
+}
+
+#peopleHere figure.other {
+    border: solid 2px green;
+    color: green;
+}
+
+#peopleHere figure img {
+    width: 100%;
+    padding: 5px;
+    border-radius: 9px;
+}
+
+#peopleHere figcaption {
+    text-align: center;
+    padding: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
